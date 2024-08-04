@@ -1,0 +1,115 @@
+<!-- 
+Full Name: Luisa Fernanda Ramirez Cardona
+Clan: Clan Gates
+Date: Junio 5 de 2024
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sistema de gestión para un hotel" />
+  <meta name="keywords" content="riwi, JavaScript">
+  <meta name="sitedomain" content="https://riwi.io">
+  <meta name="organization" content=“RIWI_GATES”>
+  <meta name="author" content="Luisa Fernanda Ramirez Cardona">
+  <meta name="designer" content="Riwi">
+  <meta name="copyright" content="© 2024 Riwi. All rights reserved">
+  <meta name="robots" content="index,follow">
+  <meta name="googlebot" content="index,follow">
+  <meta name="revisit-after" content="15days">
+  <link rel="shortcut icon" href="https://logos-world.net/wp-content/uploads/2023/05/Aquaman-Logo.png"
+    type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Index</title>
+</head>
+
+<body>
+  <header></header>
+  <nav class=" navbar navbar-expand-lg bg-light position-sticky top-0 z-1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Atlantis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <div class=" text-center">
+          <button type="button" class="btn btn-secondary btn-logout">Logout</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <main class="container">
+    <h1 class="text-center">Form</h1>
+    <form class="text-center mb-5">
+      <div class="form-group py-2 text-start">
+          <label for="number-room">Number Room</label>
+          <input type="text" class="form-control" id="number-room" aria-describedby="name" placeholder="Number room">
+      </div>
+      <div class="form-group py-2 text-start">
+          <label for="type-room" class="form-label">Room Type</label>
+          <select class="form-select type-room" aria-label="Default select example">
+              <option selected>Select one type room</option>
+              <option value="simple room">Simple</option>
+              <option value="suite">Suite</option>
+              <option value="family room">Family Room</option>
+            </select>
+      </div>
+      <div class="form-group py-2 text-start">
+        <label for="breakfast">Price per night</label>
+        <input type="number" class="form-control" id="price" aria-describedby="name" placeholder="Price per night">
+    </div>
+    <div class="form-group py-2 text-start">
+      <label for="beds">Number of beds</label>
+      <input type="number" class="form-control" id="beds" aria-describedby="name" placeholder="Number of beds">
+  </div>
+  <div class="form-group py-2 text-start">
+    <label for="beds">Number of bathrooms</label>
+    <input type="number" class="form-control" id="bathrooms" aria-describedby="name" placeholder="Number of bathrooms">
+</div>
+      <div class="form-group py-2 text-start">
+          <label><input type="checkbox" id="breakfast"/>Breakfast</label>
+      </div>
+      <div class="form-group py-2 text-start">
+        <label><input type="checkbox" id="wifi"/>Wifi</label>
+    </div>
+      <div class="form-group py-2 text-start">
+        <label><input type="checkbox" id="air-conditioning"/>Air conditioning</label>
+    </div>
+      <button type="submit" id="btn-new" class="btn btn-success">
+          Save
+      </button>
+  </form>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">room number</th>
+          <th scope="col">room type</th>
+          <th scope="col">Price per night</th>
+          <th scope="col">Number of beds</th>
+          <th scope="col">Number of bathrooms</th>
+          <th scope="col">Breakfast.</th>
+          <th scope="col">Wifi.</th>
+          <th scope="col">Air conditioning (A/C).</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </main>
+
+<footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script type="module" src="./../js/dashboard.js"></script>
+</body>
+
+</html>

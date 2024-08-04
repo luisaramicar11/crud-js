@@ -1,0 +1,304 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "numberRoom": "101",
+      "typeRoom": "simple room",
+      "price": "150000",
+      "beds": "1",
+      "bathrooms": "1",
+      "wifi": true,
+      "airConditioning": true,
+      "breakfast": true
+    },
+    {
+      "id": "2",
+      "numberRoom": "102",
+      "typeRoom": "simple room",
+      "price": "160000",
+      "beds": "1",
+      "bathrooms": "1",
+      "wifi": true,
+      "airConditioning": true,
+      "breakfast": true
+    },
+    {
+      "id": "3",
+      "numberRoom": "103",
+      "typeRoom": "suite",
+      "price": "250000",
+      "beds": "1",
+      "bathrooms": "1",
+      "wifi": true,
+      "airConditioning": true,
+      "breakfast": true
+    },
+    {
+      "id": "4",
+      "numberRoom": "104",
+      "typeRoom": "suite",
+      "price": "250000",
+      "beds": "1",
+      "bathrooms": "1",
+      "wifi": true,
+      "airConditioning": true,
+      "breakfast": true
+    },
+    {
+      "id": "5",
+      "numberRoom": "105",
+      "typeRoom": "family room",
+      "price": "350000",
+      "beds": "1",
+      "bathrooms": "1",
+      "wifi": true,
+      "airConditioning": true,
+      "breakfast": true
+    },
+    {
+      "id": "6",
+      "numberRoom": "106",
+      "typeRoom": "family room",
+      "price": "350000",
+      "beds": "1",
+      "bathrooms": "1",
+      "wifi": true,
+      "airConditioning": true,
+      "breakfast": true
+    },
+    {
+      "id": "1daa",
+      "numberRoom": "202",
+      "typeRoom": "simple room",
+      "price": "160000",
+      "beds": "2",
+      "bathrooms": "1",
+      "wifi": false,
+      "airConditioning": false,
+      "breakfast": true
+    },
+    {
+      "id": "b2ae",
+      "numberRoom": "203",
+      "typeRoom": "suite",
+      "price": "2000000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": true,
+      "airConditioning": false
+    },
+    {
+      "id": "ffdb",
+      "numberRoom": "204",
+      "typeRoom": "simple room",
+      "price": "250000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": true,
+      "airConditioning": false
+    },
+    {
+      "id": "52db",
+      "numberRoom": "205",
+      "typeRoom": "simple room",
+      "price": "250000",
+      "beds": "2",
+      "bathrooms": "2",
+      "breakfast": true,
+      "wifi": false,
+      "airConditioning": false
+    },
+    {
+      "id": "7d40",
+      "numberRoom": "206",
+      "typeRoom": "suite",
+      "price": "250000",
+      "beds": "1",
+      "bathrooms": "1",
+      "breakfast": true,
+      "wifi": true,
+      "airConditioning": true
+    },
+    {
+      "id": "fd75",
+      "numberRoom": "207",
+      "typeRoom": "simple room",
+      "price": "150000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": false,
+      "airConditioning": true
+    },
+    {
+      "id": "d43a",
+      "numberRoom": "208",
+      "typeRoom": "suite",
+      "price": "150000",
+      "beds": "1",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": false,
+      "airConditioning": true
+    },
+    {
+      "id": "e63c",
+      "numberRoom": "208",
+      "typeRoom": "simple room",
+      "price": "150000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": true,
+      "airConditioning": false
+    },
+    {
+      "id": "ded9",
+      "numberRoom": "209",
+      "typeRoom": "suite",
+      "price": "250000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": false,
+      "airConditioning": true
+    },
+    {
+      "id": "9e24",
+      "numberRoom": "201",
+      "typeRoom": "simple room",
+      "price": "140000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": false,
+      "airConditioning": true
+    },
+    {
+      "id": "84f6",
+      "numberRoom": "210",
+      "typeRoom": "simple room",
+      "price": "250000",
+      "beds": "1",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": false,
+      "airConditioning": true
+    },
+    {
+      "id": "80a7",
+      "numberRoom": "211",
+      "typeRoom": "simple room",
+      "price": "150000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": false,
+      "wifi": false,
+      "airConditioning": true
+    },
+    {
+      "numberRoom": "212",
+      "typeRoom": "suite",
+      "price": "150000",
+      "beds": "2",
+      "bathrooms": "1",
+      "breakfast": true,
+      "wifi": false,
+      "airConditioning": false,
+      "id": "a759"
+    },
+    {
+      "numberRoom": "213",
+      "typeRoom": "simple room",
+      "price": "150000",
+      "beds": "1",
+      "bathrooms": "1",
+      "breakfast": true,
+      "wifi": true,
+      "airConditioning": false,
+      "id": "3c34"
+    },
+    {
+      "id": "9e9a",
+      "numberRoom": "214",
+      "typeRoom": "simple room",
+      "price": "150000",
+      "beds": "1",
+      "bathrooms": "1",
+      "breakfast": true,
+      "wifi": false,
+      "airConditioning": false
+    },
+    {
+      "id": "f8bf",
+      "numberRoom": "220",
+      "typeRoom": "simple room",
+      "price": "150000",
+      "beds": "1",
+      "bathrooms": "1",
+      "breakfast": true,
+      "wifi": false,
+      "airConditioning": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "Juan",
+      "lastName": "Perez",
+      "email": "jperez@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "username": "Pedro",
+      "lastName": "Gomez",
+      "email": "pgomez@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "0e42",
+      "username": "sara",
+      "lastName": "perez",
+      "email": "saraperez@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "267d",
+      "username": "pepito",
+      "lastName": "perez",
+      "email": "pepitoperez@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "65bb",
+      "username": "rosita",
+      "lastName": "perez",
+      "email": "rositaperez@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d727",
+      "username": "josefina",
+      "lastName": "perez",
+      "email": "josefinaperez@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "9dea",
+      "username": "marina",
+      "lastName": "zuluaga",
+      "email": "marinazuluaga@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "3b11",
+      "username": "clemente",
+      "lastName": "zuluaga",
+      "email": "clemente@gmail.com",
+      "password": "123"
+    }
+  ]
+}
